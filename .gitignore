@@ -1,0 +1,33 @@
+.vscode
+zappy*
+zappy_gui
+zappy_ai
+zappy_server
+build
+*.o
+notes.txt
+vgcore.*
+orga.txt
+*.txt
+!CMakeLists.txt
+*/TexturesExtracted/
+*.zip
+__pycache__/
+*.pyc
+notes.txt
+zappy_gui.AppImage
+lancer.sh
+reference_server
+orga.txt
+Tests
+*.gcno
+*.gcda
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+# Copyrighted music tracks (see GUI/Assets/Sounds/README.md)
+GUI/Assets/Sounds/*.ogg
+GUI/Assets/Menu/RatDancing.mp3
