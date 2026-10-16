@@ -82,7 +82,12 @@ Start a server, a few bots and the GUI, each in its own terminal:
 
 Server tests: `make tests_run`.
 
-> The music tracks used by the GUI are not included (copyright). The GUI runs without them.
+> **Changes from the original project, for copyright reasons.** The GUI originally played
+> seven commercial songs (in `GUI/Assets/Sounds/` and `GUI/Assets/Menu/RatDancing.mp3`). They
+> are not redistributed in this public repository. Because the GUI used to stop when a track was
+> missing, `MusicSound` was changed to print a warning and play silence instead. Everything else
+> is the code as submitted; you can put your own tracks back under the same file names
+> (see [GUI/Assets/Sounds/README.md](GUI/Assets/Sounds/README.md)).
 
 ## Documentation
 
